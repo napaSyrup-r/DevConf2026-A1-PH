@@ -148,6 +148,69 @@ section div div div .card-list ul{
     background-color:#0D1B2A;
     color: white;
 }
+
+
+/* AI part - faq */
+.faq-section{
+    padding: 80px 8%;
+    background-color: #f8f5f5;
+}
+
+.faq{
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.faq p{
+    color: #575757;
+}
+
+.faq-container{
+    display: grid;
+    gap: 20px;
+}
+
+.faq-card{
+    background-color: #0D1B2A;
+    border: 1px solid #DBEAFE;
+    border-radius: 12px;
+    padding: 20px 25px;
+}
+
+.faq-card summary{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    color: #749bf0;
+}
+
+
+.faq-card summary::-webkit-details-marker{
+    display: none;
+}
+
+.faq-card summary::after{
+    content: "+";
+    float: right;
+    color: #749bf0;
+    font-size: 22px;
+}
+
+.faq-card[open] summary::after{
+    content: "-";
+}
+
+.faq-card p{
+    color: #5aa6c7;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+/* ai end */
+
+
+/* footer */
 footer{
     background-color: #0D1B2A
 }
