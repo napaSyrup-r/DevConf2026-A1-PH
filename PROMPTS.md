@@ -1,3 +1,5 @@
+Prompt 1:
+
 I am building an webpage titled "DevConf2026" using html and css, the webpage includes:
 
 1. navbar : in navbar there is a logo in left, hyperlinks (Sprekers, schedule, tracks, venue, blog) in middle and register now button in right.
@@ -18,3 +20,8 @@ This is the **only** section where AI usage is expected and encouraged.
 - Use AI (Claude, ChatGPT, or any tool) to help you **ideate, design, and/or code** this section.
 
 now generate the html and css part for this "placeholder" section only!!
+
+
+Prompt 2:
+
+make a creative ai section, using onlt html and css, it may be complex, just do it
